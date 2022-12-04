@@ -1,0 +1,1111 @@
+@media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 992px) {
+	body{
+		header{
+			.search-wrapper{
+				width: 100%;
+			}
+			
+		}
+	}
+	.custm-modal{
+		.my-moda-p{
+			padding: 0px 50px;
+			&.classes{
+				.color-item{
+					margin-bottom: 8px;
+				}
+			}
+		}
+		.btn-wrapper{
+			padding: 0px 50px;
+		}
+	}
+}
+@media only screen and (max-width: 768px) {
+	body{
+		content{
+			&#articles-detiled{
+				.articles-info-wrapper{
+					.articles-info{
+						padding: 30px;
+						.text-wrapper{
+							padding: 0px 30px;
+						}
+					}
+				}
+			}
+			&#about{
+				.image-wrapper{
+					padding: 20px 30px;
+				}
+				.text-wrapper{
+					padding: 0px 50px;
+				}
+			}
+			&#terms-of-use{
+				.terms-of-use-wrapper{
+					.text-wrapper{
+						padding: 20px 50px;
+						p{
+							word-break: break-all;
+						}
+					}
+				}	
+			}
+			&#books-pdf{
+				.pdf-wrapper{
+					padding: 30px 80px;
+				}
+			}
+			&#my-books{
+				.list-of-students{
+					.lists{
+						.table{
+							tbody{
+								td{
+									&:first-child{
+										div{
+											width: 130px;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.custm-modal{
+		.my-moda-p{
+			padding: 0px 40px;
+			&.classes{
+				.color-item{
+					margin-bottom: 8px;
+				}
+			}
+		}
+		.btn-wrapper{
+			padding: 0px 40px;
+		}
+	}
+
+}
+@media only screen and (max-width: 576px) {
+	%h2-size{
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 24px;
+		color: #000000;
+	}
+	%h1-size{
+		font-weight: 500;
+		font-size: 25px;
+		line-height: 32px;
+		color: #000000;
+	}
+	%p-size{
+		font-size: 14px !important;
+		line-height: 18px !important;
+	}
+
+	body{
+		&.auth{
+
+			%auth-h2{
+				font-size: 26px;
+				line-height: 30px;
+			};
+			@mixin auth-p($fz, $lh){
+				font-size: $fz;
+				line-height: $lh;
+				text-align: center;
+				color: rgba(0, 0, 0, 0.5);
+			}
+			%auth-label{
+				font-size: 14px;
+				line-height: 18px;
+			}
+
+			.wrapper{
+				%sing-up-padding{
+					padding: 50px 0px;
+				}
+
+				%sing-up-form-bg{
+					height: 100%;
+					padding: 25px 20px 44px;
+
+				}
+				/*sing up start*/
+
+				.sing-up{
+					@extend %sing-up-padding;
+					h3{
+						font-size: 24px;
+						line-height: 28px;
+					}
+					p{
+						@include auth-p(18px,24px);
+						margin-top: 15px;
+					}
+					.class-item{
+						span{
+							font-size: 16px;
+							line-height: 19px;
+						}
+					}
+				}
+
+				/*sing up end*/
+
+				/*.sing-up-pers start*/
+
+				.sing-up-pers{
+					@extend %sing-up-padding;
+					.sing-up-form{
+						@extend %sing-up-form-bg;
+						p{
+							@include auth-p(14px, 17px);
+						}
+
+					}
+					.accaunt-recavery{
+						h6{
+							text-align: left;
+						}
+						.btn{
+							&.success{
+								font-size: 14px;
+								line-height: 18px;
+							}
+						}
+					}
+				}
+
+				/*.sing-up-pers end*/
+			}
+
+			h2{
+				@extend %auth-h2;
+				font-weight: 500;
+			}
+			h6{
+				font-size: 16px;
+				line-height: 19px;
+			}
+			label{
+				@extend %auth-label;
+			}
+			.form-control{
+				font-size: 14px;
+				line-height: 17px;
+				&::placeholder{
+					font-size: 12px;
+					line-height: 14px;
+				}
+			}
+			.auth-btn{
+				font-size: 14px;
+				line-height: 17px;	
+			}
+			
+		}
+		%p-nav-left{
+			padding: 14px 26px;
+		}
+		aside.left-nav{
+			.logo-toggler-wrapper{
+				@extend %p-nav-left;
+			}
+			.scroll-left-nav{
+				overflow: auto;
+				.left-nav-reclam{
+					@extend %p-nav-left;
+					.rec-wrapper{
+						h4{
+							font-size: 26px;
+							line-height: 30px;
+							text-align: center;
+							color: #1A73E8;
+						};
+						a{
+							font-size: 15.1429px;
+							line-height: 18px;
+						}
+					}
+				}
+			}
+			.left-nav-links{
+				li{
+					ul{
+						margin-top: 10px;
+						li{
+							a{
+								font-size: 14px;
+								line-height: 17px;
+							}
+						}
+					}
+				}
+			}
+			.left-nav-links li{
+				@extend %p-nav-left;
+				
+				a{
+					font-weight: 500;
+					font-size: 14px;
+					line-height: 17px;
+				}
+				
+			}
+		}
+		header{
+			%hed-p-size{
+				font-size: 12px;
+				line-height: 14px;
+			}
+			.search-wrapper{
+				.search-group{
+					.form-control{
+						&:placeholder{
+							@extend %hed-p-size;
+						}
+					}
+				}
+			}
+			.wrapper-links{
+				.btn{
+					font-size: 14px;
+					line-height: 17px;
+				}
+			}
+			.natification{
+				justify-content: flex-start !important;
+				.dropdown{
+					.dropdown-menu{
+						min-width: 260px;
+						.nat-heading{
+							padding: 10px 15px;
+							a{
+								@extend %p-size;
+							}
+						}
+						.nat-cont{
+							padding: 5px 15px;
+							.avatar-wrapper{
+								width: 44px;
+								height: 44px;
+							}
+							.text-wrapper{
+								h6{
+									@extend %p-size;
+								}
+							}
+						}
+					}
+				}
+				.log-inf{
+					.image-avatar{
+						width: 45px;
+						height: 45px;
+					}
+					h6{
+						@extend %p-size;
+					}
+				}
+			}
+			
+		}
+		footer{
+			%foot-txt-size{
+				font-size: 16px;
+				line-height: 18px;
+				color: rgba(0, 0, 0, 0.5);
+			}
+			span{
+				@extend %foot-txt-size;
+			}
+			p{
+				@extend %foot-txt-size;
+			}
+		}
+		content{
+			&#home{
+				
+				%h2-size{
+					font-weight: 500;
+					font-size: 22px;
+					line-height: 26px;
+					color: #000000;
+				}
+
+				.slideshow{
+					.carousel-indicators li{
+						width: 10px;
+						height: 10px;
+						border-radius: 50%;
+						margin-right: 5px;
+						margin-left: 5px;
+						border-width: 0px;
+					}
+					.carousel-image-wrapper{
+						overflow-x: hidden;
+						min-height: 370px;
+						max-height: 400px;
+						img{
+							width: 100% !important;
+						}
+					}
+				}
+				.articles{
+					h2{
+						@extend %h2-size;
+					}
+					a{
+						font-size: 14px;
+						line-height: 16px;
+						text-decoration-line: underline;
+						color: #1A73E8;
+
+					}
+					.articles-item{
+						small{
+							font-size: 14px;
+							line-height: 20px;
+						}
+						.text-wrapper{
+							height: 100px;
+							p{
+								font-size: 16px;
+								line-height: 22px;
+							}
+						}
+					}
+				}
+				#ban{
+					display: none;
+				}
+				#advantage{
+					.advantage-item{
+						background-size: cover;
+						background-repeat: no-repeat;
+						background-position: center;
+						font-weight: 500;
+						color: white;
+						padding: 20px 20px;
+						border-radius: 10px;
+						h5{ 
+							font-size: 30px;
+							line-height: 36px;
+						}
+						p{
+							font-size: 18px;
+							line-height: 26px;
+						}
+					}
+				}
+				#rewievs{
+					h2{
+						@extend %h2-size;
+						padding-bottom: 10px;
+					}
+					.rewievs-item{
+						h6{
+							font-size: 16px;
+							line-height: 24px;
+						}
+						p{
+							font-size: 14px;
+							line-height: 20px;
+						}
+					}
+				}
+			}
+			&#books-detiled-page{
+				%p-d-size{
+					font-size: 14px;
+					line-height: 20px;
+					color: rgba(0, 0, 0, 0.5);
+				}
+				#book-info{
+					padding: 20px 0px;
+					h1{
+						@extend %h1-size;
+					}
+					
+					.rating-wrapper{
+						p{
+							@extend %p-d-size;
+						}
+						a{
+							@extend %p-d-size;
+						}
+					}
+					.text-wrapper{
+						padding: 20px 0px;
+						p{
+							@extend %p-d-size;	
+						}
+						
+					}
+					.links{
+						.btn{
+							font-size: 16px;
+							line-height: 22px;
+							padding: 10px 20px;
+						}
+					}
+				}
+				#similar-books{
+					.similar-item{
+						.info{
+							padding: 10px;
+							h6{
+								font-size: 16px;
+								line-height: 20px;
+							}
+							p{
+								font-size: 12px;
+								line-height: 16px;
+							}
+							.btn{
+								color: white;
+								padding: 10px 20px;
+							}
+						}
+					}
+				}
+				#review-wrapper{
+					.add-review{
+						.form{
+							padding: 20px 20px;
+							h6{
+								font-size: 16px;
+								line-height: 28px;
+							}
+							textarea{
+								font-size: 14px;
+								line-height: 18px;
+							}
+							.btn.add{
+								font-size: 16px;
+								line-height: 24px;
+								padding: 10px 30px;
+								width: 100%;
+							}
+						}
+					}
+					.reviews{
+
+						.review-item{
+							.image-wrapper{
+								width: 40px;
+								height: 40px;
+							}
+							.text-wrapper{
+								padding: 0px 10px;
+								h5{
+									font-size: 18px;
+									line-height: 22px;
+								}
+								small{
+									font-size: 14px;
+									line-height: 18px;
+								}
+								p{
+									font-size: 14px;
+									line-height: 18px;
+								}
+							}
+						}
+					}
+				}
+			}
+			&#articles-wrapper{
+				h1{
+					@extend %h1-size;
+				}
+				.articles-item{
+					padding-bottom: 30px;
+					.image-wrapper{
+						height: 200px;
+						img{
+							border-radius: 5px;
+							height: 100%;
+						}
+					}
+					.text-wrapper{
+						min-height: 160px;
+						small{
+							font-size: 14px;
+							line-height: 16px;
+						}
+					}
+					.btn-child{
+						margin: 0px 10px;
+						margin-bottom: 10px;
+						padding: 15px 30px;
+					}
+				}
+			}
+			&#articles-detiled{
+				h1{
+					@extend %h1-size;
+				}
+				.articles-info-wrapper{
+					.articles-info{
+						padding: 20px;
+						h3{
+							font-size: 20px;
+							line-height: 26px;
+						}
+						small{
+							margin: 20px 0px;
+							margin-bottom: 	25px;
+						}
+						.image-wrapper{
+							height: 300px;
+						}
+						.text-wrapper{
+							padding: 0px;
+							p{
+								@extend %p-size;
+
+							}
+						}
+						.appraisal{
+							p{
+								@extend %p-size;
+							}
+						}
+					}
+				}
+			}
+			&#contacts-page{
+				.contacts-wrapper{
+					.contacts{
+						padding: 20px;
+						.lnk{
+							font-size: 18px;
+							line-height: 24px;
+						}
+					}
+					.feedback{
+						padding: 20px;
+					}
+				}
+			}
+			&#about{
+				.image-wrapper{
+					padding: 20px;
+					height: 250px;
+				}
+				.text-wrapper{
+					padding: 0px;
+					p{
+						@extend %p-size;	
+					}
+				}
+			}
+			&#terms-of-use{
+				.terms-of-use-wrapper{
+					.text-wrapper{
+						padding: 0px;
+						p{
+							@extend %p-size;
+						}
+					}
+				}	
+			}
+			&#books-pdf{
+				.pdf-wrapper{
+					padding: 20px 30px;
+				}
+			}
+			&#my-books{
+				.list-of-students{
+					.lists{
+						.table{
+							tbody{
+								td{
+									&:first-child{
+										div{
+											width: 140px;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.profile-wrapper{
+				padding: 20px;
+				.avatar{
+					img{
+						width: 80px;
+						height: 80px;
+					}
+				}
+				h1{
+					margin-top: 10px;
+					font-size: 20px;
+					line-height: 26px;
+				}
+				.copy-id-wrapper{
+					p{
+						@extend %p-size;
+					}
+				}
+				.text-wrapper{
+					padding: 0px;
+					h6{
+						font-weight: 500;
+						font-size: 16px;
+						line-height: 18px;
+					}
+					p{
+						@extend %p-size;
+					}
+				}
+				.info{
+					padding: 0px 20px;
+					p{
+						@extend %p-size;
+						margin-bottom: 5px;
+					}
+				}
+				.infoch{
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					.chooses{
+						width: 80px;
+						height: 80px;
+						border-radius: 50%;	
+						h1{
+							color: white;
+						}
+					}
+					h1{
+						@extend %h1-size;
+					}
+					p{
+						@extend %p-size;
+					}
+				}
+				.form{
+					h1{
+						@extend %h1-size;
+					}
+					p{
+						@extend %p-size;
+					}
+					.form-control{
+						@extend %p-size;
+					}
+					.date-wrapper{
+						display: grid;
+						grid-template-columns: 1fr 1fr
+					}
+				}
+			}
+			&#classes{
+				.classes{
+					.class-item{
+						h2{
+							@extend %h1-size;
+						}
+						.choose{
+							width: 70px;
+							height: 70px;
+						}
+						p{
+							@extend %p-size;
+						}
+					}
+					
+				}
+			}
+			&#classes-detiled{
+				.info-class{
+					padding: 20px;
+					h1{
+						@extend %h1-size;
+					}
+					.info{
+						flex-direction: column;
+						.chooses{
+							width: 100px;
+							height: 100px;
+							margin-right: 0px;
+							margin-bottom: 10px;
+						}
+						p{
+							font-size: 16px;
+						}
+						.btn{
+							font-size: 16px;
+							line-height: 18px;
+						}
+					}
+					.statistics{
+						grid-template-columns: 5fr 2fr;
+						p{
+							@extend %p-size;
+						}
+						span{
+							@extend %p-size;
+						}
+					}
+
+				}
+				.ethics-talking{
+					.text-wrapper{
+						padding: 20px;
+						h6{
+							font-size: 	16px;
+							line-height: 22px;
+						}
+						.stat{
+							p{
+								@extednd %p-size;
+							}
+						}
+						.btn{
+							@extednd %p-size;
+						}
+					}
+				}
+			}
+			&#resolve-test{
+				.profile-wrapper{
+					.date{
+						@extend %p-size;
+					}
+				}
+				.compiled-test{
+					.nav{
+						.nav-item{
+							font-size: 18px;
+							line-height: 22px;
+						}
+					}
+				}
+				.ethics-of-taking{
+					padding: 20px 10px;
+					h5{
+						font-size: 18px;
+						line-height: 22px;
+					}
+					.tab-content{
+						h6{
+							@extend %p-size;
+						}
+					}
+				}
+			}
+			&#create-goal{
+				.pick-test{
+					padding: 20px 10px;
+					h1{
+						@extend %h1-size;
+					}
+					p{
+						@extend %p-size;
+					}
+					.pick-item{
+						display: grid;
+						grid-template-columns: 1fr;
+						align-items: center;
+						p{
+							font-size: 12px;
+							margin-bottom: 10px;
+							margin-top: 10px;
+						}
+					}
+					.create-a-goal{
+						.btn{
+							padding: 14px 30px;
+							width: 100%;
+						}
+					}
+					
+				}
+			}
+			&#goal-detile{
+				.talking{
+					h1{
+						@extend %h1-size;
+					}
+					p{
+						@extend %p-size;
+					}
+				}
+				.tests{
+					.tests-item{
+						h6{
+							font-size: 16px;
+							line-height: 22px;
+						}
+						small{
+							@extend %p-size;
+						}
+						p{
+							@extend %p-size;
+						}
+						
+						.btn{
+							padding: 10px 40px;
+							@extend %p-size;
+							margin-top: 40px;
+						}
+					}
+				}
+			}
+			&#reviews{
+				.list-of-students{
+					.lists{
+						td{
+							.review-item{
+								width: 300px;
+								.image-wrapper{
+									width: 50px;
+									height: 50px;
+								}
+								.text-wrapper{
+									h5{
+										@extend %p-size;
+									}
+									small{
+										@extend %p-size;
+									}
+									.rating{
+										label{
+											width: 20px;
+											height: 20px;
+										}
+									}
+									p{
+										@extend %p-size;
+									}
+								}
+							}
+							.action{
+								.request{
+									.btn{
+										padding: 10px 40px;
+										min-width: 150px;
+										@extend %p-size;
+									}
+								}
+								.action-item{
+									.btn{
+										@extend %p-size;
+										&#delete{
+											@extend %p-size;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			&#payments{
+				td{
+					&.name{
+						p{
+							margin-bottom: 0px;
+							margin-left: 5px;
+						}
+					}
+				}
+			}
+			.create-test-admin{
+				h6{
+					@extend %p-size;
+				}
+				.image-book{
+					img{
+						width: 80%;
+					}
+				}
+				.btn-add-answer{
+					@extend %p-size;
+					padding: 13px 20px;
+				}
+				.btn-add-questions{
+					width: 100%;
+					padding: 20px;
+					p{
+						@extend %p-size;
+					}
+				}
+				.btn-wrapper{
+					flex-direction: column;
+					.btn{
+						@extend %p-size;
+						width: 100%;
+						&.b{
+							margin-left: 0px;
+							margin-top: 10px;
+						}
+					}
+				}
+			}
+			&#test-statistics{
+				.test-wrapper{
+					.list-group-item{
+						.btn{
+							font-size: 16px;
+							line-height: 20px;
+							padding: 10px 20px;
+						}
+					}
+				}
+			}
+
+		}
+			
+	}
+	.custm-modal{
+		%padding-modal{
+			padding: 0px 20px;
+		}
+		.close{
+			font-size: 24px;
+		}
+		h1{
+			font-size: 24px;
+			line-height: 32px;
+			margin-top: 20px;
+		}
+		p{
+			font-size: 16px;
+			line-height: 18px;
+		}
+		.book-title{
+			font-size: 14px;
+			line-height: 17px;
+		}
+		label{
+			font-size: 14px;
+			line-height: 17px;
+		}
+		.form-control{
+			font-size: 14px;
+			line-height: 17px;
+		}
+		.my-moda-p{
+			@extend %padding-modal;
+			&.classes{
+				.color-item{
+					margin-bottom: 8px;
+				}
+			}
+		}
+		.list-date{
+			font-size: 14px;
+			line-height: 24px;
+		}
+		.info-user{
+			.info{
+				margin-top: 30px;
+				padding-bottom: 30px;
+				.image{
+					width: 100px;
+					height: 100px;
+				}
+				h2{
+					font-size: 30px;
+					line-height: 35px;
+					margin: 10px 0px;
+				}
+				small{
+					font-size: 16px;
+					line-height: 19px;
+				}
+			}
+			.payment-type,.payment-history,.member{
+				padding: 30px 0px;
+			}
+			h6{
+				font-size: 18px;
+				line-height: 24px;
+			}
+			.history{
+				max-height: 200px;
+			}
+		}
+		.alert-wrapper{
+			.alert{
+				grid-template-columns: 11fr 1fr;
+				p{
+					font-size: 14px;
+					line-height: 16px;
+				}
+			}
+		}
+		.score{
+			font-size: 96px;
+			line-height: 112px;
+		}
+		.btn-wrapper{
+			@extend %padding-modal;
+			.btn{
+				@extend %p-size;
+				padding: 13px 40px;
+				width: 100%;
+				&.s{
+					transition: all .2s linear;
+				}
+				&.b{
+					margin-left: 0px;
+					margin-top: 10px;
+				}
+				&.d{
+					margin-left: 0px;
+					margin-top: 10px;
+				}
+
+			}
+			padding-bottom: 50px;
+		}
+	}
+}
+@media only screen and (max-width: 320px) {
+	body{
+		aside.left-nav{
+			.logo-toggler-wrapper{
+				padding: 12px 26px;
+			}
+			.left-nav-links{
+				li{
+					ul{
+						margin-top: 10px;
+						li{
+							a{
+								font-size: 12px;
+								line-height: 17px;
+							}
+						}
+					}
+				}
+			}
+			.left-nav-links li{
+				padding: 12px 26px;
+				a{
+					font-weight: 500;
+					font-size: 12px;
+					line-height: 17px;
+				}
+				
+			}
+		}
+	}
+}

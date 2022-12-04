@@ -1,0 +1,678 @@
+@media only screen and (max-width: 992px) {
+  body header .search-wrapper {
+    width: 100%;
+  }
+
+  .custm-modal .my-moda-p {
+    padding: 0px 50px;
+  }
+  .custm-modal .my-moda-p.classes .color-item {
+    margin-bottom: 8px;
+  }
+  .custm-modal .btn-wrapper {
+    padding: 0px 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body content#articles-detiled .articles-info-wrapper .articles-info {
+    padding: 30px;
+  }
+  body content#articles-detiled .articles-info-wrapper .articles-info .text-wrapper {
+    padding: 0px 30px;
+  }
+  body content#about .image-wrapper {
+    padding: 20px 30px;
+  }
+  body content#about .text-wrapper {
+    padding: 0px 50px;
+  }
+  body content#terms-of-use .terms-of-use-wrapper .text-wrapper {
+    padding: 20px 50px;
+  }
+  body content#terms-of-use .terms-of-use-wrapper .text-wrapper p {
+    word-break: break-all;
+  }
+  body content#books-pdf .pdf-wrapper {
+    padding: 30px 80px;
+  }
+  body content#my-books .list-of-students .lists .table tbody td:first-child div {
+    width: 130px;
+  }
+
+  .custm-modal .my-moda-p {
+    padding: 0px 40px;
+  }
+  .custm-modal .my-moda-p.classes .color-item {
+    margin-bottom: 8px;
+  }
+  .custm-modal .btn-wrapper {
+    padding: 0px 40px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  body content#home .articles h2, body content#home #rewievs h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  body content#books-detiled-page #book-info h1, body content#articles-wrapper h1, body content#articles-detiled h1, body content .profile-wrapper .infoch h1, body content .profile-wrapper .form h1, body content#classes .classes .class-item h2, body content#classes-detiled .info-class h1, body content#create-goal .pick-test h1, body content#goal-detile .talking h1 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+  }
+
+  body header .natification .dropdown .dropdown-menu .nat-heading a, body header .natification .dropdown .dropdown-menu .nat-cont .text-wrapper h6, body header .natification .log-inf h6, body content#articles-detiled .articles-info-wrapper .articles-info .text-wrapper p, body content#articles-detiled .articles-info-wrapper .articles-info .appraisal p, body content#about .text-wrapper p, body content#terms-of-use .terms-of-use-wrapper .text-wrapper p, body content .profile-wrapper .copy-id-wrapper p, body content .profile-wrapper .text-wrapper p, body content .profile-wrapper .info p, body content .profile-wrapper .infoch p, body content .profile-wrapper .form p, body content .profile-wrapper .form .form-control, body content#classes .classes .class-item p, body content#classes-detiled .info-class .statistics p, body content#classes-detiled .info-class .statistics span, body content#resolve-test .profile-wrapper .date, body content#resolve-test .ethics-of-taking .tab-content h6, body content#create-goal .pick-test p, body content#goal-detile .talking p, body content#goal-detile .tests .tests-item small, body content#goal-detile .tests .tests-item p, body content#goal-detile .tests .tests-item .btn, body content#reviews .list-of-students .lists td .review-item .text-wrapper h5, body content#reviews .list-of-students .lists td .review-item .text-wrapper small, body content#reviews .list-of-students .lists td .review-item .text-wrapper p, body content#reviews .list-of-students .lists td .action .request .btn, body content#reviews .list-of-students .lists td .action .action-item .btn, body content#reviews .list-of-students .lists td .action .action-item .btn#delete, body content .create-test-admin h6, body content .create-test-admin .btn-add-answer, body content .create-test-admin .btn-add-questions p, body content .create-test-admin .btn-wrapper .btn, .custm-modal .btn-wrapper .btn {
+    font-size: 14px !important;
+    line-height: 18px !important;
+  }
+
+  body.auth h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  body.auth label {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  body.auth .wrapper {
+    /*sing up start*/
+    /*sing up end*/
+    /*.sing-up-pers start*/
+    /*.sing-up-pers end*/
+  }
+  body.auth .wrapper .sing-up, body.auth .wrapper .sing-up-pers {
+    padding: 50px 0px;
+  }
+  body.auth .wrapper .sing-up-pers .sing-up-form {
+    height: 100%;
+    padding: 25px 20px 44px;
+  }
+  body.auth .wrapper .sing-up h3 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  body.auth .wrapper .sing-up p {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+  }
+  body.auth .wrapper .sing-up .class-item span {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  body.auth .wrapper .sing-up-pers .sing-up-form p {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  body.auth .wrapper .sing-up-pers .accaunt-recavery h6 {
+    text-align: left;
+  }
+  body.auth .wrapper .sing-up-pers .accaunt-recavery .btn.success {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  body.auth h2 {
+    font-weight: 500;
+  }
+  body.auth h6 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  body.auth .form-control {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  body.auth .form-control::placeholder {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  body.auth .auth-btn {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  body aside.left-nav .logo-toggler-wrapper, body aside.left-nav .scroll-left-nav .left-nav-reclam, body aside.left-nav .left-nav-links li {
+    padding: 14px 26px;
+  }
+  body aside.left-nav .scroll-left-nav {
+    overflow: auto;
+  }
+  body aside.left-nav .scroll-left-nav .left-nav-reclam .rec-wrapper h4 {
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #1A73E8;
+  }
+  body aside.left-nav .scroll-left-nav .left-nav-reclam .rec-wrapper a {
+    font-size: 15.1429px;
+    line-height: 18px;
+  }
+  body aside.left-nav .left-nav-links li ul {
+    margin-top: 10px;
+  }
+  body aside.left-nav .left-nav-links li ul li a {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  body aside.left-nav .left-nav-links li a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  body header .search-wrapper .search-group .form-control:placeholder {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  body header .wrapper-links .btn {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  body header .natification {
+    justify-content: flex-start !important;
+  }
+  body header .natification .dropdown .dropdown-menu {
+    min-width: 260px;
+  }
+  body header .natification .dropdown .dropdown-menu .nat-heading {
+    padding: 10px 15px;
+  }
+  body header .natification .dropdown .dropdown-menu .nat-cont {
+    padding: 5px 15px;
+  }
+  body header .natification .dropdown .dropdown-menu .nat-cont .avatar-wrapper {
+    width: 44px;
+    height: 44px;
+  }
+  body header .natification .log-inf .image-avatar {
+    width: 45px;
+    height: 45px;
+  }
+  body footer span, body footer p {
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  body content#home .articles h2, body content#home #rewievs h2 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+  }
+  body content#home .slideshow .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-width: 0px;
+  }
+  body content#home .slideshow .carousel-image-wrapper {
+    overflow-x: hidden;
+    min-height: 370px;
+    max-height: 400px;
+  }
+  body content#home .slideshow .carousel-image-wrapper img {
+    width: 100% !important;
+  }
+  body content#home .articles a {
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #1A73E8;
+  }
+  body content#home .articles .articles-item small {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  body content#home .articles .articles-item .text-wrapper {
+    height: 100px;
+  }
+  body content#home .articles .articles-item .text-wrapper p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  body content#home #ban {
+    display: none;
+  }
+  body content#home #advantage .advantage-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: 500;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+  }
+  body content#home #advantage .advantage-item h5 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  body content#home #advantage .advantage-item p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  body content#home #rewievs h2 {
+    padding-bottom: 10px;
+  }
+  body content#home #rewievs .rewievs-item h6 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  body content#home #rewievs .rewievs-item p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  body content#books-detiled-page #book-info .rating-wrapper p, body content#books-detiled-page #book-info .rating-wrapper a, body content#books-detiled-page #book-info .text-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  body content#books-detiled-page #book-info {
+    padding: 20px 0px;
+  }
+  body content#books-detiled-page #book-info .text-wrapper {
+    padding: 20px 0px;
+  }
+  body content#books-detiled-page #book-info .links .btn {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 10px 20px;
+  }
+  body content#books-detiled-page #similar-books .similar-item .info {
+    padding: 10px;
+  }
+  body content#books-detiled-page #similar-books .similar-item .info h6 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body content#books-detiled-page #similar-books .similar-item .info p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  body content#books-detiled-page #similar-books .similar-item .info .btn {
+    color: white;
+    padding: 10px 20px;
+  }
+  body content#books-detiled-page #review-wrapper .add-review .form {
+    padding: 20px 20px;
+  }
+  body content#books-detiled-page #review-wrapper .add-review .form h6 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  body content#books-detiled-page #review-wrapper .add-review .form textarea {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  body content#books-detiled-page #review-wrapper .add-review .form .btn.add {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 30px;
+    width: 100%;
+  }
+  body content#books-detiled-page #review-wrapper .reviews .review-item .image-wrapper {
+    width: 40px;
+    height: 40px;
+  }
+  body content#books-detiled-page #review-wrapper .reviews .review-item .text-wrapper {
+    padding: 0px 10px;
+  }
+  body content#books-detiled-page #review-wrapper .reviews .review-item .text-wrapper h5 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  body content#books-detiled-page #review-wrapper .reviews .review-item .text-wrapper small {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  body content#books-detiled-page #review-wrapper .reviews .review-item .text-wrapper p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  body content#articles-wrapper .articles-item {
+    padding-bottom: 30px;
+  }
+  body content#articles-wrapper .articles-item .image-wrapper {
+    height: 200px;
+  }
+  body content#articles-wrapper .articles-item .image-wrapper img {
+    border-radius: 5px;
+    height: 100%;
+  }
+  body content#articles-wrapper .articles-item .text-wrapper {
+    min-height: 160px;
+  }
+  body content#articles-wrapper .articles-item .text-wrapper small {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  body content#articles-wrapper .articles-item .btn-child {
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    padding: 15px 30px;
+  }
+  body content#articles-detiled .articles-info-wrapper .articles-info {
+    padding: 20px;
+  }
+  body content#articles-detiled .articles-info-wrapper .articles-info h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  body content#articles-detiled .articles-info-wrapper .articles-info small {
+    margin: 20px 0px;
+    margin-bottom: 25px;
+  }
+  body content#articles-detiled .articles-info-wrapper .articles-info .image-wrapper {
+    height: 300px;
+  }
+  body content#articles-detiled .articles-info-wrapper .articles-info .text-wrapper {
+    padding: 0px;
+  }
+  body content#contacts-page .contacts-wrapper .contacts {
+    padding: 20px;
+  }
+  body content#contacts-page .contacts-wrapper .contacts .lnk {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  body content#contacts-page .contacts-wrapper .feedback {
+    padding: 20px;
+  }
+  body content#about .image-wrapper {
+    padding: 20px;
+    height: 250px;
+  }
+  body content#about .text-wrapper {
+    padding: 0px;
+  }
+  body content#terms-of-use .terms-of-use-wrapper .text-wrapper {
+    padding: 0px;
+  }
+  body content#books-pdf .pdf-wrapper {
+    padding: 20px 30px;
+  }
+  body content#my-books .list-of-students .lists .table tbody td:first-child div {
+    width: 140px;
+  }
+  body content .profile-wrapper {
+    padding: 20px;
+  }
+  body content .profile-wrapper .avatar img {
+    width: 80px;
+    height: 80px;
+  }
+  body content .profile-wrapper h1 {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  body content .profile-wrapper .text-wrapper {
+    padding: 0px;
+  }
+  body content .profile-wrapper .text-wrapper h6 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  body content .profile-wrapper .info {
+    padding: 0px 20px;
+  }
+  body content .profile-wrapper .info p {
+    margin-bottom: 5px;
+  }
+  body content .profile-wrapper .infoch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body content .profile-wrapper .infoch .chooses {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  body content .profile-wrapper .infoch .chooses h1 {
+    color: white;
+  }
+  body content .profile-wrapper .form .date-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  body content#classes .classes .class-item .choose {
+    width: 70px;
+    height: 70px;
+  }
+  body content#classes-detiled .info-class {
+    padding: 20px;
+  }
+  body content#classes-detiled .info-class .info {
+    flex-direction: column;
+  }
+  body content#classes-detiled .info-class .info .chooses {
+    width: 100px;
+    height: 100px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  body content#classes-detiled .info-class .info p {
+    font-size: 16px;
+  }
+  body content#classes-detiled .info-class .info .btn {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  body content#classes-detiled .info-class .statistics {
+    grid-template-columns: 5fr 2fr;
+  }
+  body content#classes-detiled .ethics-talking .text-wrapper {
+    padding: 20px;
+  }
+  body content#classes-detiled .ethics-talking .text-wrapper h6 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  body content#classes-detiled .ethics-talking .text-wrapper .stat p {
+    @extednd %p-size;
+  }
+  body content#classes-detiled .ethics-talking .text-wrapper .btn {
+    @extednd %p-size;
+  }
+  body content#resolve-test .compiled-test .nav .nav-item {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  body content#resolve-test .ethics-of-taking {
+    padding: 20px 10px;
+  }
+  body content#resolve-test .ethics-of-taking h5 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  body content#create-goal .pick-test {
+    padding: 20px 10px;
+  }
+  body content#create-goal .pick-test .pick-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  body content#create-goal .pick-test .pick-item p {
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  body content#create-goal .pick-test .create-a-goal .btn {
+    padding: 14px 30px;
+    width: 100%;
+  }
+  body content#goal-detile .tests .tests-item h6 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  body content#goal-detile .tests .tests-item .btn {
+    padding: 10px 40px;
+    margin-top: 40px;
+  }
+  body content#reviews .list-of-students .lists td .review-item {
+    width: 300px;
+  }
+  body content#reviews .list-of-students .lists td .review-item .image-wrapper {
+    width: 50px;
+    height: 50px;
+  }
+  body content#reviews .list-of-students .lists td .review-item .text-wrapper .rating label {
+    width: 20px;
+    height: 20px;
+  }
+  body content#reviews .list-of-students .lists td .action .request .btn {
+    padding: 10px 40px;
+    min-width: 150px;
+  }
+  body content#payments td.name p {
+    margin-bottom: 0px;
+    margin-left: 5px;
+  }
+  body content .create-test-admin .image-book img {
+    width: 80%;
+  }
+  body content .create-test-admin .btn-add-answer {
+    padding: 13px 20px;
+  }
+  body content .create-test-admin .btn-add-questions {
+    width: 100%;
+    padding: 20px;
+  }
+  body content .create-test-admin .btn-wrapper {
+    flex-direction: column;
+  }
+  body content .create-test-admin .btn-wrapper .btn {
+    width: 100%;
+  }
+  body content .create-test-admin .btn-wrapper .btn.b {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  body content#test-statistics .test-wrapper .list-group-item .btn {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 20px;
+  }
+
+  .custm-modal .my-moda-p, .custm-modal .btn-wrapper {
+    padding: 0px 20px;
+  }
+  .custm-modal .close {
+    font-size: 24px;
+  }
+  .custm-modal h1 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 20px;
+  }
+  .custm-modal p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .custm-modal .book-title {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .custm-modal label {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .custm-modal .form-control {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .custm-modal .my-moda-p.classes .color-item {
+    margin-bottom: 8px;
+  }
+  .custm-modal .list-date {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .custm-modal .info-user .info {
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+  .custm-modal .info-user .info .image {
+    width: 100px;
+    height: 100px;
+  }
+  .custm-modal .info-user .info h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 10px 0px;
+  }
+  .custm-modal .info-user .info small {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .custm-modal .info-user .payment-type, .custm-modal .info-user .payment-history, .custm-modal .info-user .member {
+    padding: 30px 0px;
+  }
+  .custm-modal .info-user h6 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .custm-modal .info-user .history {
+    max-height: 200px;
+  }
+  .custm-modal .alert-wrapper .alert {
+    grid-template-columns: 11fr 1fr;
+  }
+  .custm-modal .alert-wrapper .alert p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .custm-modal .score {
+    font-size: 96px;
+    line-height: 112px;
+  }
+  .custm-modal .btn-wrapper {
+    padding-bottom: 50px;
+  }
+  .custm-modal .btn-wrapper .btn {
+    padding: 13px 40px;
+    width: 100%;
+  }
+  .custm-modal .btn-wrapper .btn.s {
+    transition: all .2s linear;
+  }
+  .custm-modal .btn-wrapper .btn.b {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .custm-modal .btn-wrapper .btn.d {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  body aside.left-nav .logo-toggler-wrapper {
+    padding: 12px 26px;
+  }
+  body aside.left-nav .left-nav-links li ul {
+    margin-top: 10px;
+  }
+  body aside.left-nav .left-nav-links li ul li a {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  body aside.left-nav .left-nav-links li {
+    padding: 12px 26px;
+  }
+  body aside.left-nav .left-nav-links li a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
